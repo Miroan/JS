@@ -1,0 +1,13 @@
+<div id="pic">
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+</div>
+
+
+<javascript>
+$('#two, #three').hide();
+$('.slide').click(function(){
+    $(this).fadeOut().next().fadeIn();
+});
+</javascript>
